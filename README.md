@@ -10,24 +10,20 @@ Make sure you have Node.js installed on your machine. If you don't have it, you 
 
 1. Clone the repository or download the project files.
 
-1. Navigate to the project directory and install the required dependencies using npm:
-
-
-`npm install`
+2. Navigate to the project directory and install the required dependencies using npm:`npm install`
 
 ## Usage
 
 1. The scraper is set to fetch news from "The Hindu" website.
 
-2. To run the scraper, execute the following command in your terminal:
-
-`npm start`
+2. To run the scraper, execute the following command in your terminal:`npm start`
 
 3. The server will start running on port 2003, and the scraped news headlines will be printed to the console.
 
 ## Example Output
 
 After running the scraper, the console will display an array of news objects with the following structure:
+
 `[
 {
 "heading": "Some news headline",
